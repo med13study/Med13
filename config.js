@@ -57,7 +57,7 @@ const SUBJECTS = [
   { name: 'تشريح الجهاز العصبي', lectures: ['L01','L02a', 'L02b', 'L03a', 'L03b', 'L04', 'L05a', 'L05b', 'L06', 'L07', 'L08'], color: '#FF6F61', icon: 'i-brain' },
     { name: 'الفيزيولوجيا 2',      lectures: LECTS(20).filter(n => n !== 'L08'), color: '#14B8A6', icon: 'i-pulse' },
   { name: 'الكيمياء السريرية 2', lectures: LECTS(10), color: '#4C9AFF', icon: 'i-pill'  },
-  { name: 'أخلاقيات الطب',       lectures: LECTS(12), color: '#F5B93B', icon: 'i-book'  },
+  { name: 'أخلاقيات الطب',       lectures: LECTS(), color: '#F5B93B', icon: 'i-book'  },
   { name: 'الوبائيات', lectures: ['نظري', 'عملي'], color: '#8B7CF6', icon: 'i-stats' },
   { name: 'المهارات السريرية',   lectures: [...LECTS(7), 'L07b', ...LECTS(23).slice(7), 'L24a', 'L24b', 'L25a', 'L25b'], color: '#EC5F9A', icon: 'i-steth' },
   { name: 'الأحياء الدقيقة',     lectures: ['عملي', 'L01', 'L02', 'L03', 'L04', 'L05', 'L06a', 'L06b', 'L07', 'L08', 'L09', 'L10', 'L11', 'L12' ], color: '#12284C', icon: 'i-germ'  }
